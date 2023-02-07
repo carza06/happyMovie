@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('/src/font/CooperHewitt-Bold.woff2') format('woff2'),
+        url('/src/font/CooperHewitt-Bold.woff') format('woff'),
+        url('/src/font/cooper-hewitt/CooperHewitt-LightItalic.otf');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-size: 16px;
+    background: white;
+}
+
+.section-1 {
+    margin: 5% 0;
+    border-bottom: 5rem solid #7fa923;
+}
+
+.section-1 h2 {
+    font-family: 'Sniglet', cursive !important;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section-1__content {
+    text-align: justify;
+    padding: 25px;
+    margin: 0 auto;
+    width: 80%;
+    font-style: normal;
+    color: rgb(65, 65, 65);
+    font-size: 1.2rem;
+}
+
+.parallax {
+    background: url("/src/img/bg-about-1.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 138px;
+}
+
+.parallax-inner {
+    padding-top: 10%;
+    padding-bottom: 30%;
+}
+
+.parallax-inner h2 {
+    font-family: 'Cooper Hewitt';
+    font-weight: lighter;
+    font-size: 2rem;
+    font-style: italic;
+    margin-left: 45px;
+    max-width: 22rem;
+    text-align: justify;
+}
+
+.section-2 {
+    margin-bottom: 5rem;
+}
+
+.section-2__wrapper {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    height: 100%;
+}
+
+.section-2__wrapper .section-2__item:nth-child(2) {
+    position: relative;
+    top: 70px;
+}
+
+.section-2__title h2 {
+    font-family: 'Cooper Hewitt';
+    font-size: 3rem;
+    color: #fce2d8;
+    background-color: #765dc3;
+    width: 40%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-2__item img {
+    width: 70%;
+}
+
+.section-2__content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section-2__content p {
+    font-family: 'Cooper Hewitt';
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.section-2__content div {
+    text-align: center;
+    width: 60%;
+    height: 5px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.section-2__content button {
+    margin: 0 auto;
+    font-family: 'Cooper Hewitt';
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 0 60px;
+    background-color: #765dc3;
+    border: none;
+}
+
+/* FIXME: Intentar usar otra forma de  Cooper Hewitt*/
+
+@media screen and (max-width:600px) {
+
+    body {
+        font-size: 10px;
+    }
+
+    .section-2__title h2 {
+        font-family: 'Cooper Hewitt';
+        font-size: 1.5rem;
+    }
+
+    .section-2__wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-2__wrapper .section-2__item:nth-child(2) {
+        top: 0;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+
+    .parallax-inner h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .section-2__title h2 {
+        font-size: 1rem;
+    }
+}

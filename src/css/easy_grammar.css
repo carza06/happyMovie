@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('/src/font/CooperHewitt-Bold.woff2') format('woff2'),
+        url('/src/font/CooperHewitt-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('/src/font/CooperHewitt-Light.otf');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('/src/font/CooperHewitt-Book.otf');
+}
+
+
+
+.course_details_area {
+    margin-bottom: 20px;
+}
+
+.easyGrammar__parallax {
+    background: url("/src/img/Are you ready.png") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 138px;
+    height: 100%;
+    font-size: 16px;
+}
+
+.easyGrammar__parallax-inner {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.easyGrammar__parallax-inner img {
+    width: 65%;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+}
+
+.easyGrammar__btn {
+    margin-top: 15px;
+    font-family: 'Sniglet', cursive !important;
+    width: 30%;
+    border-radius: 30px;
+    background-color: #E9AD7D;
+    border: none;
+    font-size: 2em;
+}
+
+/* ================ Only movil ================*/
+@media (max-width: 450px) {
+    .easyGrammar__parallax {
+        font-size: 8px;
+    }
+
+    .easyGrammar__parallax-inner img {
+        width: 100%;
+    }
+}
+
+/* ================ Content info ================*/
+.content__element2 {
+    background-color: var(--secondary);
+}
+
+.content1__title {
+    padding: 0 20px;
+    font-family: 'Cooper Hewitt' !important;
+    font-weight: bold;
+}
+
+.content1__info {
+    padding: 0 20px;
+    color: black;
+    font-size: 26px;
+    font-family: 'Cooper Hewitt' !important;
+}
+
+.content1__info2 small {
+    padding: 0 20px;
+    font-family: 'Cooper Hewitt' !important;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.content1__info2 {
+    font-size: 26px;
+    font-family: 'Cooper Hewitt' !important;
+}
+
+.content__element2 {
+    margin-top: 70px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__element2 p {
+    font-family: 'Cooper Hewitt' !important;
+    font-size: 2em;
+    color: black;
+}
+
+
+.content2__title {
+    border-radius: 15px;
+    background-color: rgb(255, 239, 239);
+    font-size: 26px;
+    font-family: 'Cooper Hewitt' !important;
+}
+
+.content2__title span {
+    font-family: 'Cooper Hewitt' !important;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.btn__content2 {
+    font-family: 'Sniglet', cursive !important;
+    width: 25%;
+    border-radius: 30px;
+    background-color: #E9AD7D;
+    border: none;
+    font-size: 2em;
+}
+
+@media (max-width: 450px) {
+
+    .content2__title {
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .content2__title span {
+        font-size: 1em;
+    }
+
+    .content__element2 {
+        font-size: 8px;
+    }
+}
+
+
+/* ======= Content 3 ======= */
+
+.content3 {
+    font-size: 16px;
+}
+
+.content3__parallax {
+    background: url("/src/img/Are you ready.png") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 138px;
+    height: 100%;
+    font-size: 1em;
+}
+
+.content3__parallax-inner {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content3__title h2 {
+    text-align: center;
+    font-family: 'Cooper Hewitt' !important;
+    font-weight: bold;
+    font-size: 1.93em;
+    background-color: #c3e889;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+.content3__wrapper {
+    width: 50%;
+}
+
+.content3__item {
+    background-color: #E9AD7D;
+    -webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-right-radius: 100px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomright: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 10px 10px 10px 25px;
+    font-family: 'Cooper Hewitt' !important;
+    font-size: 1.40em;
+    margin: 15px 0;
+}
+
+/* ======= Only movil =======*/
+
+@media (max-width: 650px) {
+    .content3 {
+        font-size: 12px;
+    }
+
+    .content3__wrapper {
+        width: 100%;
+    }
+
+    /* .content3__title h2 {
+        width: 100%;
+        margin: 20px;
+    } */
+}
+
+.content4 {
+    font-size: 16px;
+}
+
+.content4__item {
+    width: 80%;
+    margin: auto;
+}
+
+.content4__item p {
+    background-color: #d9d9d9;
+    text-align: center;
+    font-size: 1.20em;
+    font-family: 'Cooper Hewitt';
+}
+
+/* Only movil */
+@media (max-width: 500px) {
+    .content4 {
+        font-size: 12px;
+    }
+}
+
+.content5 {
+    font-size: 16px;
+}
+
+.content5__title {
+    background-color: #c3e889;
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 2.43em;
+}
+
+.content5__info {
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    font-size: 2.40em;
+    text-align: center;
+    color: black;
+}
+
+/* Only movil */
+
+@media (max-width: 600px) {
+    .content5__title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .content5__info {
+        font-size: 1.5em;
+    }
+}
+
+.section6 {
+    margin-top: 110px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.section6 h2 {
+    font-size: 3em;
+}
+
+.section6__title {
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    color: black;
+    font-size: 1.96em;
+}
+
+.question__wrapper h2 {
+    font-size: 1.96em;
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+}
+
+.question__wrapper p {
+    font-size: 1.96em;
+    font-family: 'Cooper Hewitt';
+}
+
+/* Only movil */
+@media (max-width: 600px) {
+
+    .section6 {
+        font-size: 10px;
+    }
+}
+
+.section7__title {
+    font-family: 'Sniglet', cursive !important;
+}
+
+.content7__img img {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+}
+
+.btn__content7 {
+    font-family: 'Sniglet', cursive !important;
+    border-radius: 30px;
+    background-color: #E9AD7D;
+    border: none;
+    font-size: 2em;
+}

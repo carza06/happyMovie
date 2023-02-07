@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+
+@font-face {
+	font-family: 'Cooper Hewitt';
+	src: url('/src/font/CooperHewitt-Bold.woff2') format('woff2'),
+		url('/src/font/CooperHewitt-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	/* --primary: #06bbcc; */
+	--primary: #765dc3;
+	--secondary: #7fa923;
+	--light: #c3d889;
+	--light-secondary: #e9a07d;
+	--ultra-light: #fbd5c2;
+	--white: #fff;
+	--dark: #181d38;
+}
+
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.title-head {
+	color: #765dc3;
+	font-family: 'Cooper Hewitt' !important;
+}
+
+.btn-ingresar {
+	font-size: 25px;
+	border-radius: 10px !important;
+	background-color: var(--secondary) !important;
+	color: var(--dark);
+	font-family: 'Cooper Hewitt' !important;
+	border-style: none;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: 600;
+	transition: 0.5s;
+}
+
+.btn-ingresar:hover {
+	background-color: var(--primary) !important;
+	color: var(--white);
+}
+
+.card {
+	border: none;
+}

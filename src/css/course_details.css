@@ -1,0 +1,151 @@
+.page-header {
+    background-color: red;
+}
+
+.title {
+    font-size: 21px;
+    border: none;
+    margin-top: 40px;
+    border-bottom: 1px solid #dadada;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    width: 74px;
+    background-color: #765dc3;
+}
+
+.content_wrapper .content {
+    color: #7b838a;
+}
+
+.course_details_left .course_list {
+    margin-bottom: 0;
+}
+
+@media (max-width: 575px) {
+    .course_details_left .course_list {
+        padding-left: 0;
+    }
+}
+
+.course_details_left .course_list li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.course_details_left .course_list li .primary-btn {
+    background: #765dc3;
+    color: #7b838a;
+    box-shadow: none;
+    font-size: 12px;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.course_details_left .course_list li .primary-btn:hover {
+    background: #7fa923;
+    color: #ffffff;
+}
+
+@media (max-width: 575px) {
+
+    /* TODO: Continuar aqui */
+    .course_details_left .course_list li .primary-btn {
+        min-width: 100px;
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        max-height: 40px;
+    }
+}
+
+.course_details_area__content {
+    color: #7b838a;
+}
+
+.course_details_left .course_list li:last-child {
+    margin-bottom: 0;
+}
+
+.courseOutline__content {
+    color: #7b838a;
+    margin-bottom: 25px;
+}
+
+.primary-btn {
+    color: white !important;
+}
+
+.right-contents ul {
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+
+.right-contents ul li {
+    list-style-type: none;
+    background: #f9f9f9;
+    padding: 10px 22px;
+    margin-bottom: 10px;
+}
+
+.right-contents ul li a {
+    color: #765dc3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.primary-btn2 {
+    background-color: #765dc3;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.primary-btn2:hover {
+    text-decoration: none;
+    background-color: #7fa923;
+    transition: 0.5s;
+}
+
+.review__title {
+    color: #765dc3;
+    font-weight: bold;
+}
+
+.review-top {
+    margin-bottom: 25px;
+}
+
+.review-top span {
+    color: #7b838a;
+    width: 31%;
+}
+
+.right-contents .comments-area {
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+.desc a {
+    text-decoration: none;
+    color: #765dc3;
+}
+
+.desc .comment {
+    color: #7b838a;
+}
+
+.user {
+    margin: 20px 0;
+}

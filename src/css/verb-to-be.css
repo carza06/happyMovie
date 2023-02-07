@@ -1,0 +1,78 @@
+.course_details_img {
+    margin: auto;
+}
+
+.welcome {
+    padding: 10px 30px;
+}
+
+.welcome h2 {
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.welcome__info2 {
+    font-family: 'Cooper Hewitt';
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+.welcome__info2 small {
+    font-family: 'Cooper Hewitt';
+    margin-top: 26px;
+    padding: 20px 25px;
+    font-size: 25px;
+}
+
+.welcome iframe {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+    height: 315px;
+
+}
+
+iframe {
+    margin: auto;
+    display: flex;
+}
+
+
+.curse .easyGrammar__header {
+    height: 100%;
+}
+
+.curse .content3__title h2 {
+    font-weight: 100;
+}
+
+.content4 .content3__title h2 {
+    font-family: 'Cooper Hewitt' !important;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.curse .content3__item {
+    font-family: 'Cooper Hewitt' !important;
+    font-weight: bold;
+    color: black;
+    font-size: 1.31em;
+}
+
+.content4__body .content4__item {
+    width: 100%;
+}
+
+.content4__body .content4__item p {
+    font-family: 'Cooper Hewitt' !important;
+    font-weight: bold !important;
+    color: black;
+    font-size: 23px;
+}
+
+.btn__content7 {
+    width: 210px;
+    margin: 0 auto;
+}
