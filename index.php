@@ -47,7 +47,7 @@
                 <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
                     REGISTRAR
                 </button> -->
-                <h4 style="color: #ffffff">!Nos vemos pronto!</h4>
+                <h4 style="color: #ffffff">¡Nos vemos pronto!</h4>
             </div><br><br>
 
         </div><br><br><br>
