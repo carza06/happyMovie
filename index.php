@@ -41,13 +41,14 @@
         <center>
         <div class="col-md-4 " style="margin-top: 30px;">
             <img src="logop.png" alt="" >
-            <h1 style="font-size: 40px; color:#FFFFFF; ">Sitio Web <br><b>en Construccion</b></h1><br>
+            <h1 style="font-size: 40px; color:#FFFFFF; ">Sitio Web <br><b>en Construcción</b></h1><br>
+            <br><br>
             <div>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
                     REGISTRAR
-                </button>
-                <h4 style="color: #ffffff">Registrate con nosotros y participa en nuestro sorteo de inauguración</h4>
-            </div>
+                </button> -->
+                <h4 style="color: #ffffff">!Nos vemos pronto!</h4>
+            </div><br><br>
 
         </div><br><br><br>
         <div class="row" style="color: #FFFFFF;">
